@@ -34,18 +34,20 @@ export class ProductService {
     }
   }
   static async getProducts(
-    storeName: string,
+    storeId: string,
     page: number = 1,
     limit: number = 10
   ) {
     try {
-      const storeDetails = await this.store.findOne({ name: storeName }).lean();
+      const storeDetails = await this.store.findOne({ _id: storeId }).lean();
 
       if (!storeDetails) {
         throw new AppError(statusCode.NOT_FOUND, "No store found");
       }
 
-      const totalProducts = await this.product.countDocuments({ storeName });
+      const totalProducts = await this.product.countDocuments({
+        storeName: storeDetails.name,
+      });
 
       if (totalProducts === 0) {
         return {
@@ -63,7 +65,7 @@ export class ProductService {
       const skip = (page - 1) * limit;
 
       const products = await this.product
-        .find({ storeName })
+        .find({ storeName: storeDetails.name })
         .skip(skip)
         .limit(limit)
         .lean();

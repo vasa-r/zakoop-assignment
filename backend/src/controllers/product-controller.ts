@@ -25,10 +25,10 @@ export class ProductController {
 
   static async getProducts(req: Request, res: Response, next: NextFunction) {
     try {
-      const storeName = req.query.storeName as string;
+      const storeId = req.query.storeId as string;
       const page = +req.query.page!;
 
-      const result = await ProductService.getProducts(storeName, page);
+      const result = await ProductService.getProducts(storeId, page);
 
       res
         .status(statusCode.CREATED)

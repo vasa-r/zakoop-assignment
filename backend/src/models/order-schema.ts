@@ -4,6 +4,7 @@ export interface IOrderProduct {
   name: string;
   price: number;
   quantity: number;
+  image: string;
 }
 
 export interface IOrder extends Document {
