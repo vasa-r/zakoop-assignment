@@ -1,4 +1,4 @@
-import mongoose, { Document, Schema } from "mongoose";
+import mongoose, { Document, Model, Schema } from "mongoose";
 
 interface IOrderProduct {
   name: string;
@@ -43,7 +43,7 @@ const orderSchema = new Schema<IOrder>(
   }
 );
 
-const Order =
+const Order: Model<IOrder> =
   mongoose.models.Order || mongoose.model<IOrder>("Order", orderSchema);
 
 export default Order;
