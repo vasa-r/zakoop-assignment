@@ -1,6 +1,6 @@
 import mongoose, { Document, Model, Schema } from "mongoose";
 
-interface IOrderProduct {
+export interface IOrderProduct {
   name: string;
   price: number;
   quantity: number;
@@ -11,7 +11,6 @@ export interface IOrder extends Document {
   username: string;
   products: IOrderProduct[];
   totalPrice: number;
-  createdAt: Date;
 }
 
 const orderProductSchema = new Schema<IOrderProduct>({

@@ -223,3 +223,60 @@
 {"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:18:41:1841"}
 {"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:18:41:1841"}
 {"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=2 \u001b[32m201\u001b[0m 128.505 ms - 1223\u001b[0m","timestamp":"2025-04-20 17:18:43:1843"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:20:25:2025"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:20:25:2025"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:21:15:2115"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:21:15:2115"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:21:36:2136"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:21:36:2136"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:23:46:2346"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:23:46:2346"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:24:54:2454"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:24:54:2454"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:25:13:2513"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:25:13:2513"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:25:30:2530"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:25:30:2530"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:25:50:2550"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:25:50:2550"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:26:03:263"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:26:03:263"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:26:22:2622"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:26:22:2622"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:27:00:270"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:27:00:270"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:27:13:2713"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:27:13:2713"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:29:09:299"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:29:09:299"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:29:22:2922"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:29:22:2922"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:30:03:303"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:30:03:303"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:30:19:3019"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:30:19:3019"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:30:32:3032"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:30:32:3032"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:30:48:3048"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:30:48:3048"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:31:06:316"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:31:06:316"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:31:17:3117"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:31:17:3117"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:31:28:3128"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:31:28:3128"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:32:17:3217"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:32:17:3217"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:32:28:3228"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:32:28:3228"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:32:36:3236"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:32:36:3236"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:32:47:3247"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:32:47:3247"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:33:06:336"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:33:06:336"}
+{"level":"error","message":"Error: Something went wrong while creating order\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/order-service.ts:27:13)\n    at Generator.throw (<anonymous>)\n    at rejected (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/order-service.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:35:38:3538"}
+{"level":"http","message":"\u001b[0mPOST /api/v1/order/create \u001b[31m500\u001b[0m 23.494 ms - 71\u001b[0m","timestamp":"2025-04-20 17:35:38:3538"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:36:04:364"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:36:04:364"}
+{"level":"http","message":"\u001b[0mPOST /api/v1/order/create \u001b[32m201\u001b[0m 72.906 ms - 328\u001b[0m","timestamp":"2025-04-20 17:36:57:3657"}
