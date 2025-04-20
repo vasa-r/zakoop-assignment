@@ -1,4 +1,4 @@
-import { ShoppingBasket } from "lucide-react";
+import { Loader, ShoppingBasket } from "lucide-react";
 import { lazy, Suspense } from "react";
 import { Toaster } from "react-hot-toast";
 import { Link, Route, Routes } from "react-router-dom";
@@ -12,7 +12,13 @@ const OrderConfirmationPage = lazy(
 );
 
 const Loading = () => {
-  return <div>loading</div>;
+  return (
+    <div className="h-screen w-screen flex justify-center items-center bg-emerald-50/50">
+      <div>
+        <Loader className="text-red-500 size-8 animate-spin" />
+      </div>
+    </div>
+  );
 };
 
 const App = () => {
