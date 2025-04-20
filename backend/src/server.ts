@@ -8,12 +8,15 @@ import { statusCode } from "./types/types";
 import { successRes } from "./utils/response-format";
 import v1 from "./routes/v1-route";
 import errorHandler from "./middleware/error-handler";
+import connectDb from "./config/db";
 
 const app = express();
 const PORT = 8000;
 
-const initServer = () => {
+const initServer = async () => {
   try {
+    await connectDb();
+
     app.listen(PORT, () => {
       logger.info(`Server is up and running on port ${PORT}`);
     });

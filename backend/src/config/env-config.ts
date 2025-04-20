@@ -7,6 +7,9 @@ export const envConfig = {
     env: getEnv("NODE_ENV", "production"),
     allowedOrigins: getEnv("ALLOWED_ORIGINS", "http://localhost:5173"),
   },
+  mongo: {
+    url: getEnv("MONGO_URI"),
+  },
   client: {
     url: getEnv("FRONTEND_URL"),
   },
