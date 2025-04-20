@@ -14,7 +14,7 @@ const HomePage = () => {
   const fetchStores = async () => {
     try {
       const result = await storeApi.getStores();
-      console.log({ result });
+
       if (result.success) {
         setStores(result.data);
       }
