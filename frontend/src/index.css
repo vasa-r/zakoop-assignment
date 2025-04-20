@@ -4,4 +4,5 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  @apply bg-emerald-50/50;
 }
