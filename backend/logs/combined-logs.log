@@ -153,3 +153,73 @@
 {"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:38:21:3821"}
 {"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:38:21:3821"}
 {"level":"http","message":"\u001b[0mPOST /api/v1/product/create \u001b[32m201\u001b[0m 60.480 ms - 55\u001b[0m","timestamp":"2025-04-20 16:39:55:3955"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:42:46:4246"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:42:46:4246"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:43:46:4346"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:43:46:4346"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:43:54:4354"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:43:54:4354"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:45:47:4547"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:45:47:4547"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:45:58:4558"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:45:58:4558"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:46:37:4637"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:46:37:4637"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:46:56:4656"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:46:56:4656"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:47:09:479"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:47:09:479"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:47:26:4726"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:47:26:4726"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 16:47:35:4735"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 16:47:35:4735"}
+{"level":"http","message":"\u001b[0mGET /api/v1/store/ \u001b[32m201\u001b[0m 66.407 ms - 3498\u001b[0m","timestamp":"2025-04-20 16:47:57:4757"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:04:05:45"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:04:05:45"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:04:46:446"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:04:46:446"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:05:59:559"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:05:59:559"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:06:22:622"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:06:22:622"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:07:04:74"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:07:04:74"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:07:11:711"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:07:11:711"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:07:55:755"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:07:55:755"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:09:10:910"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:09:10:910"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:09:35:935"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:09:35:935"}
+{"level":"error","message":"Error: Something went wrong while getting products\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:82:13)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:10:15:1015"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/ \u001b[31m500\u001b[0m 74.687 ms - 73\u001b[0m","timestamp":"2025-04-20 17:10:15:1015"}
+{"level":"error","message":"Error: Something went wrong while getting products\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:82:13)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:10:50:1050"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=1 \u001b[31m500\u001b[0m 52.782 ms - 73\u001b[0m","timestamp":"2025-04-20 17:10:50:1050"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:11:18:1118"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:11:18:1118"}
+{"level":"error","message":"Error: Something went wrong while getting products\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:83:13)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:11:19:1119"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=1 \u001b[31m500\u001b[0m 71.269 ms - 73\u001b[0m","timestamp":"2025-04-20 17:11:19:1119"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:12:41:1241"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:12:41:1241"}
+{"level":"error","message":"Error: Something went wrong while getting products\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:84:13)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:12:43:1243"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=1 \u001b[31m500\u001b[0m 56.770 ms - 73\u001b[0m","timestamp":"2025-04-20 17:12:43:1243"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:13:50:1350"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:13:50:1350"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=1 \u001b[32m201\u001b[0m 129.049 ms - 2120\u001b[0m","timestamp":"2025-04-20 17:13:53:1353"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=2 \u001b[32m201\u001b[0m 100.908 ms - 1223\u001b[0m","timestamp":"2025-04-20 17:14:19:1419"}
+{"level":"error","message":"Error: Something went wrong while getting products\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:84:13)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:14:31:1431"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=3 \u001b[31m500\u001b[0m 115.289 ms - 73\u001b[0m","timestamp":"2025-04-20 17:14:31:1431"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:16:19:1619"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:16:19:1619"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:17:35:1735"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:17:35:1735"}
+{"level":"error","message":"Error: No Products found\n    at Function.<anonymous> (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:70:15)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/vasa/Company Assignments/zakoop-assignment/backend/src/services/product-service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-20 17:17:38:1738"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=3 \u001b[33m404\u001b[0m 156.906 ms - 47\u001b[0m","timestamp":"2025-04-20 17:17:38:1738"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:18:06:186"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:18:06:186"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:18:22:1822"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:18:22:1822"}
+{"level":"info","message":"Db connection is success","timestamp":"2025-04-20 17:18:41:1841"}
+{"level":"info","message":"Server is up and running on port 8000","timestamp":"2025-04-20 17:18:41:1841"}
+{"level":"http","message":"\u001b[0mGET /api/v1/product/?storeName=Organic%20Hub&page=2 \u001b[32m201\u001b[0m 128.505 ms - 1223\u001b[0m","timestamp":"2025-04-20 17:18:43:1843"}

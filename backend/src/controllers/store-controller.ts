@@ -16,4 +16,15 @@ export class StoreController {
       next(error);
     }
   }
+  static async getStores(req: Request, res: Response, next: NextFunction) {
+    try {
+      const result = await StoreService.getStore();
+
+      res
+        .status(statusCode.CREATED)
+        .json(successRes("Stores fetched successfully", result));
+    } catch (error) {
+      next(error);
+    }
+  }
 }

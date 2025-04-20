@@ -22,4 +22,19 @@ export class ProductController {
       next(error);
     }
   }
+
+  static async getProducts(req: Request, res: Response, next: NextFunction) {
+    try {
+      const storeName = req.query.storeName as string;
+      const page = +req.query.page!;
+
+      const result = await ProductService.getProducts(storeName, page);
+
+      res
+        .status(statusCode.CREATED)
+        .json(successRes("Products fetched successfully", result));
+    } catch (error) {
+      next(error);
+    }
+  }
 }
