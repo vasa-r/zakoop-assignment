@@ -76,7 +76,9 @@ const CartPage = () => {
 
         <div className="flex-1 mt-3">
           {cart.length === 0 ? (
-            <p className="text-center text-lg">Your cart is empty.</p>
+            <div className="flex justify-center items-center h-full">
+              <p className="text-center text-lg">Your cart is empty.</p>
+            </div>
           ) : (
             <div className="overflow-x-auto">
               <table className="min-w-full table-auto">

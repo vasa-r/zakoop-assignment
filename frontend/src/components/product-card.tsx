@@ -37,24 +37,28 @@ const ProductCard = ({
         <div
           onClick={handleAddToCart}
           className={`absolute right-2 top-2 sm:hidden ${
-            isAdded || isProductInCart ? "bg-green-500" : "bg-red-500"
-          } p-2 rounded-sm cursor-pointer`}
+            isAdded || isProductInCart
+              ? "bg-green-500"
+              : "border border-neutral-200"
+          } p-1 rounded-sm cursor-pointer`}
         >
-          <ShoppingCart className="text-white" />
+          <ShoppingCart
+            className={`${
+              isAdded || isProductInCart ? "text-white" : "text-red-500"
+            }`}
+          />
         </div>
         <div
           onClick={handleAddToCart}
           className={`absolute right-2 top-1/3 hidden sm:flex items-center gap-2 p-1 rounded-sm cursor-pointer ${
             isAdded || isProductInCart
               ? "bg-green-500 text-white"
-              : "bg-red-100"
+              : "border border-neutral-200"
           }`}
         >
           <ShoppingCart
-            className={`text-red-500 ${
-              isAdded || isProductInCart
-                ? "bg-green-500 text-white"
-                : "bg-red-100"
+            className={`text-red-500 size-5 ${
+              isAdded || isProductInCart ? "bg-green-500  text-white" : ""
             }`}
           />
           <h3 className="text-sm sm:text-base font-medium">

@@ -7,11 +7,13 @@ import { Link, redirect, useParams } from "react-router-dom";
 import { StoreNProducts } from "../types/types";
 import ProductCard from "../components/product-card";
 import { ChevronLeft } from "lucide-react";
+import StoreShimmer from "../components/shimmers/store-shimmer";
 
 const StorePage = () => {
   const [curPage, setCurPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [products, setProducts] = useState<StoreNProducts | null>(null);
+  const [loading, setLoading] = useState(false);
 
   const params = useParams();
   const { storeId } = params;
@@ -25,6 +27,7 @@ const StorePage = () => {
   }, [curPage]);
 
   const fetchProducts = async () => {
+    setLoading(true);
     try {
       const result = await productApi.getProducts(storeId!, curPage);
 
@@ -35,6 +38,8 @@ const StorePage = () => {
     } catch (error) {
       console.log(error);
       toast.error("Please try again later.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -43,6 +48,10 @@ const StorePage = () => {
       setCurPage(page);
     }
   };
+
+  if (loading) {
+    return <StoreShimmer />;
+  }
 
   return (
     <div className="h-screen w-screen flex flex-col space-y-3 p-5">
@@ -68,11 +77,11 @@ const StorePage = () => {
           ))}
         </div>
 
-        <div className="mt-4 flex justify-center gap-2">
+        <div className="my-4 flex justify-center gap-2">
           <button
             onClick={() => handlePageChange(curPage - 1)}
             disabled={curPage === 1}
-            className="px-4 py-2 bg-red-500 rounded-md disabled:bg-red-200"
+            className="px-4 h-8 text-white bg-red-500 rounded-sm disabled:bg-red-200 hover:bg-red-600 cursor-pointer"
           >
             Prev
           </button>
@@ -82,7 +91,7 @@ const StorePage = () => {
           <button
             onClick={() => handlePageChange(curPage + 1)}
             disabled={curPage === totalPages}
-            className="px-4 py-2 bg-red-500 rounded-md disabled:bg-red-200"
+            className="px-4 h-8 text-white bg-red-500 rounded-sm disabled:bg-red-200 hover:bg-red-600 cursor-pointer"
           >
             Next
           </button>

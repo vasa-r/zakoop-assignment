@@ -3,15 +3,18 @@ import { storeApi } from "../api/store";
 import toast from "react-hot-toast";
 import StoreCard from "../components/store-card";
 import { Stores } from "../types/types";
+import HomeShimmer from "../components/shimmers/home-shimmer";
 
 const HomePage = () => {
   const [stores, setStores] = useState<Stores | []>([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     fetchStores();
   }, []);
 
   const fetchStores = async () => {
+    setLoading(true);
     try {
       const result = await storeApi.getStores();
 
@@ -21,8 +24,15 @@ const HomePage = () => {
     } catch (error) {
       console.log(error);
       toast.error("Please try again later.");
+    } finally {
+      setLoading(false);
     }
   };
+
+  if (loading) {
+    return <HomeShimmer />;
+  }
+
   return (
     <div className="h-screen w-screen flex flex-col space-y-3 p-5">
       <div className="w-full sm:w-[70%] mx-auto flex-1">
