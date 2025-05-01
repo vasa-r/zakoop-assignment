@@ -12,11 +12,16 @@ export class OrderService {
     totalPrice: number
   ) {
     try {
+      const randomDays = Math.floor(Math.random() * 3) + 1;
+      const expectedDeliveryDate = new Date();
+      expectedDeliveryDate.setDate(expectedDeliveryDate.getDate() + randomDays);
+
       const order = await this.order.create({
         store,
         username,
         products,
         totalPrice,
+        expectedDeliveryDate,
       });
 
       return order;
